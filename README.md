@@ -42,7 +42,7 @@ Briefly, this model works very well as a baseline method. You can find the scree
 Specifically, I only trained on full (10 percent 16G) dataset for 1 epoch. In contrast, I trained on a selected subset (AbdomenAtlas and LiverTumor) on 5 epochs, where the results can be found in test logs.
 
 Importantly, the training process takes a bit longer than I thought, as the main scope is to build a generic method. In addition, I used generic BCE loss, which is not the best option for medical segmentation.
-However, you can train with multiple classes (please refer #2 in #before you start) at each iteration and reduce the image size. This would lead better performance.
+However, you can train with multiple classes (please refer to #2 in #before you start) at each iteration and reduce the image size. This would lead to better performance.
 
 
 ## contact
