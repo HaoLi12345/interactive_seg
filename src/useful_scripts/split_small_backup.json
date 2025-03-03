@@ -1,0 +1,18 @@
+{
+    "train": [
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00001419.npz",
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00000077.npz",
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00001335.npz",
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00003065.npz",
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00005060.npz",
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00002791.npz",
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00002773.npz"
+    ],
+    "val": [
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00002706.npz",
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00002528.npz",
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00002658.npz",
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00001928.npz",
+        "/home/hao/Desktop/3D_train_npz_random_10percent_16G/CT/CT_AbdomenAtlas/CT_AbdomenAtlas_BDMAP_00004243.npz"
+    ]
+}
