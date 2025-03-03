@@ -60,6 +60,8 @@ The above Dice scores are averaged by all subjects. <br />
 For each subject, the Dice is derived from the mean of all classes. <br />
 For each class, the Dice of the last iteration (iter=6)
 
+For some classes, the improvements may over 0.5. However, the decreased performance is also observed as -0.2 (last_dice<init_dice)
+
 The results are computed using cropped ground truths. Please refer to test.py
 
 ## execution time
