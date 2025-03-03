@@ -1,4 +1,4 @@
-# iteractive_seg
+# interactive_seg
 deep learning-based interactive segmentation method is being conducted for CVPR 2025: Foundation Models for Interactive 3D Biomedical Image Segmentation
 
 
