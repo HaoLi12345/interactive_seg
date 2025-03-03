@@ -15,7 +15,7 @@ A deep learning-based interactive segmentation method is being conducted for [CV
 
 ## before training
 
-Please have a look at the readme.txt file under the useful_scripts folder to generate training data. It will produce a .json type file for training/validation split.
+Please have a look at the readme.txt file under the [useful_scripts](https://github.com/HaoLi12345/interactive_seg/edit/main/src/useful_scripts) folder to generate training data. It will produce a .json type file for the training/validation split.
 
 
 ## training
@@ -31,14 +31,14 @@ python train.py --split_path your_split_json_file_path --save_name your_save_nam
 python test.py --data_dir your_test_image_dir --label_dir your_test_label_dir --save_name your_save_name
 ```
 
-the console outputs from training and testing are saved in the [screenshot](https://github.com/HaoLi12345/interactive_seg/edit/main/screenshot) folder
+the console outputs from training and testing are saved in the [screenshot](https://github.com/HaoLi12345/interactive_seg/edit/main/screenshots) folder
 
 ## discussion
 Steps 3-6 should improve the results, but these haven't been coded yet.
 
-training and validation logs are attached in the implementation folder. 
+training and validation logs are attached in the [implementation](https://github.com/HaoLi12345/interactive_seg/edit/main/src/implementation) folder. 
 
-Briefly, this model works very well as a baseline method. You can find the screenshots in the fig folder. 
+Briefly, this model works very well as a baseline method. You can find the screenshots in this [folder](https://github.com/HaoLi12345/interactive_seg/edit/main/screenshots). 
 
 Specifically, I only trained on full (10 percent 16G) dataset for 1 epoch. In contrast, I trained on a selected subset (AbdomenAtlas and LiverTumor) on 5 epochs, where the results can be found in test logs.
 
@@ -62,7 +62,7 @@ For each class, the Dice of the last iteration (iter=6)
 
 around 2 seconds per image with 10 classes, i.e., 128 as input size and a total iteration of 6 for each class.
 
-More details can be found in log folder.
+More details can be found in [log](https://github.com/HaoLi12345/interactive_seg/edit/main/src/implementation) folder.
 
 ## contact
 This work is built based on our [previous work](https://github.com/MedICL-VU/PRISM), you can find more information there. Please send me an [email](hao.li.1@vanderbilt.edu) for any questions
