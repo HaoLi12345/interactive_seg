@@ -10,3 +10,4 @@ deep learning-based interactive segmentation method is being conducted for [CVPR
 5. In each iteration, point prompts are randomly sampled from false negative and false positive regions. The sampling process extends from the center point to form a cube-shaped 3x3x3 region. For multi-class segmentation, you can use positive prompts from other classes as negative prompts, though this is not implemented in the current code.
 6. You may design your own label fusion strategy for evaluation. Please refer to step 4.
 7. This code has been trained on the full 16GB training set as well as a subset containing only abdominal and liver tumor datasets. [Dataset information](https://www.codabench.org/competitions/5263/)
+8. The data has missing keys, i.e. "boxes" for some images, which are simply skipped. Please make sure to review the dataloader for non-omitted final evaluation.
