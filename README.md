@@ -1,5 +1,5 @@
 # interactive_seg
-deep learning-based interactive segmentation method is being conducted for CVPR 2025: Foundation Models for Interactive 3D Biomedical Image Segmentation
+deep learning-based interactive segmentation method is being conducted for [CVPR 2025: Foundation Models for Interactive 3D Biomedical Image Segmentation](https://www.codabench.org/competitions/5263/)
 
 
 ## what does method do
