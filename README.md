@@ -60,6 +60,8 @@ The above Dice scores are averaged by all subjects. <br />
 For each subject, the Dice is derived from the mean of all classes. <br />
 For each class, the Dice of the last iteration (iter=6)
 
+The results are computed using cropped ground truths. Please refer to test.py
+
 ## execution time
 
 **around 2 seconds** per image with 10 classes, i.e., 128 as input size and a total iteration of 6 for each class.
