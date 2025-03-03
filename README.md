@@ -45,6 +45,24 @@ Importantly, the training process takes a bit longer than I thought, as the main
 However, you can train with multiple classes (please refer to #2 in #before you start) at each iteration and reduce the image size. This would lead to better performance.
 
 
+## results
+
+AbdomenAtlas: n=100 from independent validation set, mean dice = 0.802 (iteration=6), mean initial dice = 0.776 (iteration=1).
+
+
+full: n=2074 from independent validation set, mean dice = 0.802 (iteration=6), mean initial dice = 0.776 (iteration=1).
+
+
+This Dice is averaged version by all subjects. 
+For each subject, the dice is derived from the mean of all classes. 
+For each class, is the Dice of the last iteration (iter=6)
+
+## execution time
+
+around 2 seconds per image with 10 classes, i.e., 128 as input size and a total iteration of 6 for each class.
+
+More details can be found in log folder.
+
 ## contact
 This work is built based on our [previous work](https://github.com/MedICL-VU/PRISM), you can find more information there. Please send me an [email](hao.li.1@vanderbilt.edu) for any questions
  
