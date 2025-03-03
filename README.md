@@ -1,4 +1,4 @@
-# interactive_seg
+# 3D interactive segmentation for medical images
 A deep learning-based interactive segmentation method is being conducted for [CVPR 2025: Foundation Models for Interactive 3D Biomedical Image Segmentation](https://www.codabench.org/competitions/5263/)
 
 
