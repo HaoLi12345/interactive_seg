@@ -31,7 +31,7 @@ python train.py --split_path your_split_json_file_path --save_name your_save_nam
 python test.py --data_dir your_test_image_dir --label_dir your_test_label_dir --save_name your_save_name
 ```
 
-
+the console outputs from training and testing are saved in the [screenshot](https://github.com/HaoLi12345/interactive_seg/edit/main/screenshot) folder
 
 ## discussion
 Steps 3-6 should improve the results, but these haven't been coded yet.
