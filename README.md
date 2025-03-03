@@ -53,9 +53,9 @@ AbdomenAtlas: n=100 from independent validation set, mean dice = 0.802 (iteratio
 full: n=2074 from independent validation set, mean dice = 0.802 (iteration=6), mean initial dice = 0.776 (iteration=1).
 
 
-This Dice is averaged version by all subjects. <br />
-For each subject, the dice is derived from the mean of all classes. <br />
-For each class, is the Dice of the last iteration (iter=6)
+The above Dice scores are averaged by all subjects. <br />
+For each subject, the Dice is derived from the mean of all classes. <br />
+For each class, the Dice of the last iteration (iter=6)
 
 ## execution time
 
