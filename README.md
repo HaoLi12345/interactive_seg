@@ -31,6 +31,11 @@ python train.py --split_path your_split_json_file_path --save_name your_save_nam
 python test.py --data_dir your_test_image_dir --label_dir your_test_label_dir --save_name your_save_name
 ```
 
+
+## results
+
+
+
 ## discussion
 
 I have attached my training and validation logs. Briefly, this model works very well as a baseline method. You can find the screenshots in the fig folder. Specifically, I only trained on full (10 percent 16G) dataset for 1 epoch. In contrast, I trained on selected subset (AbdomenAtlas and LiverTumor) on 5 epochs, where the results can be found in test logs.
