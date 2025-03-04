@@ -42,7 +42,7 @@ Training and validation logs are attached in the [implementation](https://github
 
 Briefly, this model works very well as a baseline method. You can find the screenshots in this [folder](https://github.com/HaoLi12345/interactive_seg/edit/main/screenshots). 
 
-Specifically, I only trained on full (10 percent 16G) dataset for **1 epoch** to prove the concept. Similarly, I trained on a selected subset (AbdomenAtlas and LiverTumor) on **5 epochs**, where the results can be found in test logs.
+Specifically, I only trained on full (10 percent 16G) dataset for **one epoch** to prove the concept. Similarly, I trained on a selected subset (AbdomenAtlas and LiverTumor) on **five epochs**, where the results can be found in test logs.
 
 Importantly, the training process takes a bit longer than I thought, as the main scope is to build a generic method. In addition, I used generic BCE loss, which is not the best option for medical segmentation.
 However, you can train with multiple classes (please refer to #2 in #before you start) at each iteration and reduce the image size. This would lead to better performance.
@@ -53,14 +53,15 @@ However, you can train with multiple classes (please refer to #2 in #before you 
 **AbdomenAtlas: n=100** from independent validation set, mean dice = 0.802 (iteration=6), mean initial dice = 0.776 (iteration=1).
 
 
-**full: n=2074** from independent validation set, mean dice = 0.802 (iteration=6), mean initial dice = 0.776 (iteration=1).
+**full: n=2074** from independent validation set, mean dice = 0.560 (iteration=6), mean initial dice = 0.512 (iteration=1).
 
 
 The above Dice scores are averaged by all subjects. <br />
 For each subject, the Dice is derived from the mean of all classes. <br />
 For each class, the Dice of the last iteration (iter=6)
 
-For some classes, the improvements may over 0.7. However, the decreased performance is also observed as -0.3 (last_dice<init_dice). ![refer to this](screenshots/improvement.png)
+For some classes, the improvements may over 0.7. However, the decreased performance is also observed as -0.3 (last_dice<init_dice). 
+The results are obtained from the full dataset after one epoch. ![refer to this](screenshots/improvement.png)
 
 The results are computed using cropped ground truths. Please refer to test.py
 
