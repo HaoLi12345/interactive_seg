@@ -15,7 +15,7 @@ A deep learning-based interactive segmentation method is being conducted for [CV
 
 ## before training
 
-Please have a look at the readme.txt file under the [useful_scripts](https://github.com/HaoLi12345/interactive_seg/edit/main/src/useful_scripts) folder to generate training data. It will produce a .json type file for the training/validation split.
+Please have a look at the readme.txt file under the [useful_scripts](https://github.com/HaoLi12345/interactive_seg/edit/main/src/useful_scripts) folder to generate training data. It will produce a .json file for the training/validation split.
 
 
 ## training
